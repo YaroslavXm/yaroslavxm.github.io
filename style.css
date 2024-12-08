@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html,body{
+    margin: 0;
+    height: 100%;
+    background-color: rgb(34, 34, 34);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.wText{
+    margin: 25px;
+    text-align: center;
+    color: white;
+}
+
+#links{
+    color: white;
+    text-align: center;
+}
+
+#avatar{
+    display: block; margin-left: auto; margin-right: auto; width: 10%; border-radius: 9999999999px; margin-top: 15px;
+}
+
+#yt{
+    background-color: #aa0404;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin: 16px 0 !important;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+#vk{
+    background-color: #0430aa;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 24px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin: 16px 0 !important;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+#yt:hover{
+    background-color: #c70404;
+}
+
+#vk:hover{
+    background-color: #0641e2;
+}
+
+#steam{
+    background-color: #011a5e;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 24px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin: 16px 0 !important;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+
+#steam:hover{
+    background-color: #04288d;
+}
+
+#pc{
+    transform: translateX(-50px) scale(0.5);
+    cursor: pointer;
+}
+
+#pctext{
+    transform: translateX(115px) translateY(-50px);
+}
+
+p{
+    text-align: center;
+    transform: translateY(250px);
+}
+
+#ragetext{
+    transform: translateX(195px);
+}
+
+#rage{
+    cursor: pointer;
+}
+
+#horror{
+    cursor: pointer;
+}
+
+#horrortext{
+    transform: translateX(195px);
+}
+
+#tix{
+   cursor: pointer; 
+}
+
+#tixtext{
+    transform: translateX(195px);
+}
+
+#butLinks{
+    display: block;
+    text-align: center;
+}
+
+#descrip{
+    text-align: center;
+}
