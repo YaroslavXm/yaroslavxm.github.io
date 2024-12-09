@@ -138,3 +138,8 @@ p{
 #descrip{
     text-align: center;
 }
+
+#xmrec{
+    background: rgb(161,37,255);
+    background: linear-gradient(135deg, rgba(161,37,255,1) 0%, rgba(3,0,73,1) 100%);
+}
