@@ -142,4 +142,20 @@ p{
 #xmrec{
     background: rgb(161,37,255);
     background: linear-gradient(135deg, rgba(161,37,255,1) 0%, rgba(3,0,73,1) 100%);
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 24px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin: 16px 0 !important;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+#xmrec:hover{
+    background: rgb(177, 77, 253);
+    background: linear-gradient(135deg, rgba(177,77,253,1) 0%, rgb(6, 0, 179) 100%);
 }
