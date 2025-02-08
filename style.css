@@ -97,6 +97,10 @@ body{
     border-radius: 7px;
 }
 
+#xmrec:hover{
+    scale: 1.1;
+}
+
 #easter{
     background-color: rgb(20, 20, 20);
     border: none;
