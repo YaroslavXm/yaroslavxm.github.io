@@ -111,3 +111,48 @@ body{
     cursor: pointer;
     border-radius: 7px;
 }
+
+#about{
+    background-color: black;
+    width: 100%;
+    height: 225px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+#credits{
+    text-align: center;
+    justify-content: center;
+    margin-left: 45px;
+    /* if in footer games we need to this row - width: 25%; */
+}
+
+#content{
+    min-height:100%;
+}
+
+#hide{
+    background-color: #1f1f1f;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 17px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.2s;
+    margin: 16px 0 !important;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 7px;
+    position: absolute;
+    bottom: 45;
+    left: 50;
+    
+}
+
+#hide:hover{
+    scale: 1.04;
+}

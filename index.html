@@ -1,13 +1,18 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xmgam3s site</title>
+    <title>Xmgam3s's site</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
 <body>
+<header>
     <a><img src="img/119467118 (1).jfif" id="ava"></a>
     <h1 id="name">Xmgam3s</h1>
+</header>
+<div id="content">
     <div id="links">
         <a href="https://www.youtube.com/@Xmgam3s"><button id="yt">YouTube</button></a>
         <a href="https://vk.com/xmgam3s"><button id="vk">VK</button></a>
@@ -17,6 +22,23 @@
     <div id="links">
         <a href="https://github.com/YaroslavXm/XmRecord"><button id="xmrec">XmRecord</button></a>
     </div>
-    <button id="easter"></button>
+</div>
+<button onclick="toggleVisibility()" id="hide">Hide / Show footer</button>
+<footer>
+    <div id="about">
+        <div id="credits">
+            <h4>Credits</h4>
+            <p>Hosting - GitHub Pages</p>
+            <p>Designer - Xmgam3s</p>
+            <p>Programmist - Xmgam3s</p>
+            <p>Thanks to GitHub for hosting my site</p>
+        </div>
+    </div>
+</footer>
+<script>
+    var button = document.getElementById("hide");
+
+    button.click();
+</script>
 </body>
 </html>
